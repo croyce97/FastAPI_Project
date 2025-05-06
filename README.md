@@ -33,6 +33,7 @@ A backend application developed using FastAPI, designed for deployment on AWS EC
 
 * Step 1: Connect your AWS EC2 instance via terminal
 * Step 2: Run these following commands in your EC2 instance:
+  
 Create file `myscript.sh`: `touch myscript.sh`
 
 Edit this file `vim myscript.sh`
