@@ -34,11 +34,11 @@ A backend application developed using FastAPI, designed for deployment on AWS EC
 * Step 1: Connect your AWS EC2 instance via terminal
 * Step 2: Run these following commands in your EC2 instance:
   
-Create file `myscript.sh`: `touch myscript.sh`
+Create file `setup_fastapi.sh`: `touch setup_fastapi.sh`
 
-Edit this file `vim myscript.sh`
+Edit this file `vim setup_fastapi.sh`
 
-Copy all [inside this file](https://github.com/croyce97/FastAPI_Project/blob/main/myscript.sh) to `myscript.sh`
+Copy all [inside this file](https://github.com/croyce97/FastAPI_Project/blob/main/myscript.sh) to `setup_fastapi.sh`
 
 Grant excecute permission: `chmod +x setup_fastapi.sh`
 
